@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4765E9411DCACF3600C0AFB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4765E9401DCACF3600C0AFB6 /* main.cpp */; };
+		4765E9491DCACF9300C0AFB6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4765E9481DCACF9300C0AFB6 /* OpenGL.framework */; };
+		4765E94C1DCAD01D00C0AFB6 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4765E94A1DCAD01D00C0AFB6 /* libGLEW.2.0.0.dylib */; };
+		4765E94D1DCAD01D00C0AFB6 /* libglfw3.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4765E94B1DCAD01D00C0AFB6 /* libglfw3.3.2.dylib */; };
+		4765E94F1DCAD05D00C0AFB6 /* libboost_thread-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4765E94E1DCAD05D00C0AFB6 /* libboost_thread-mt.dylib */; };
+		4765E9541DCAD09800C0AFB6 /* libCGAL_Core.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4765E9501DCAD09800C0AFB6 /* libCGAL_Core.12.0.0.dylib */; };
+		4765E9551DCAD09800C0AFB6 /* libCGAL.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4765E9511DCAD09800C0AFB6 /* libCGAL.12.0.0.dylib */; };
+		4765E9561DCAD09800C0AFB6 /* libmpfr.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4765E9521DCAD09800C0AFB6 /* libmpfr.4.dylib */; };
+		4765E9571DCAD09800C0AFB6 /* libgmp.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4765E9531DCAD09800C0AFB6 /* libgmp.10.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,18 @@
 /* Begin PBXFileReference section */
 		4765E93D1DCACF3600C0AFB6 /* 2DDrawingTemplate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2DDrawingTemplate; sourceTree = BUILT_PRODUCTS_DIR; };
 		4765E9401DCACF3600C0AFB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4765E9481DCACF9300C0AFB6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		4765E94A1DCAD01D00C0AFB6 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.0.0/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
+		4765E94B1DCAD01D00C0AFB6 /* libglfw3.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw3.3.2.dylib; path = ../../../../../usr/local/Cellar/glfw3/3.2.1/lib/libglfw3.3.2.dylib; sourceTree = "<group>"; };
+		4765E94E1DCAD05D00C0AFB6 /* libboost_thread-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_thread-mt.dylib"; path = "../../../../../usr/local/Cellar/boost/1.62.0/lib/libboost_thread-mt.dylib"; sourceTree = "<group>"; };
+		4765E9501DCAD09800C0AFB6 /* libCGAL_Core.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL_Core.12.0.0.dylib; path = ../../../../../usr/local/Cellar/cgal/4.9/lib/libCGAL_Core.12.0.0.dylib; sourceTree = "<group>"; };
+		4765E9511DCAD09800C0AFB6 /* libCGAL.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL.12.0.0.dylib; path = ../../../../../usr/local/Cellar/cgal/4.9/lib/libCGAL.12.0.0.dylib; sourceTree = "<group>"; };
+		4765E9521DCAD09800C0AFB6 /* libmpfr.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmpfr.4.dylib; path = ../../../../../usr/local/Cellar/mpfr/3.1.5/lib/libmpfr.4.dylib; sourceTree = "<group>"; };
+		4765E9531DCAD09800C0AFB6 /* libgmp.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmp.10.dylib; path = ../../../../../usr/local/Cellar/gmp/6.1.1/lib/libgmp.10.dylib; sourceTree = "<group>"; };
+		47C98C431DCAD85800451612 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		47C98C441DCAD85800451612 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		47C98C451DCAD90500451612 /* VertexShader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = VertexShader.vert; sourceTree = "<group>"; };
+		47C98C461DCAD91A00451612 /* FragmentShader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FragmentShader.frag; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4765E9541DCAD09800C0AFB6 /* libCGAL_Core.12.0.0.dylib in Frameworks */,
+				4765E9551DCAD09800C0AFB6 /* libCGAL.12.0.0.dylib in Frameworks */,
+				4765E9561DCAD09800C0AFB6 /* libmpfr.4.dylib in Frameworks */,
+				4765E9571DCAD09800C0AFB6 /* libgmp.10.dylib in Frameworks */,
+				4765E94F1DCAD05D00C0AFB6 /* libboost_thread-mt.dylib in Frameworks */,
+				4765E94C1DCAD01D00C0AFB6 /* libGLEW.2.0.0.dylib in Frameworks */,
+				4765E94D1DCAD01D00C0AFB6 /* libglfw3.3.2.dylib in Frameworks */,
+				4765E9491DCACF9300C0AFB6 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +71,7 @@
 			children = (
 				4765E93F1DCACF3600C0AFB6 /* 2DDrawingTemplate */,
 				4765E93E1DCACF3600C0AFB6 /* Products */,
+				4765E9471DCACF9300C0AFB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +87,27 @@
 			isa = PBXGroup;
 			children = (
 				4765E9401DCACF3600C0AFB6 /* main.cpp */,
+				47C98C431DCAD85800451612 /* Shader.h */,
+				47C98C441DCAD85800451612 /* Camera.h */,
+				47C98C451DCAD90500451612 /* VertexShader.vert */,
+				47C98C461DCAD91A00451612 /* FragmentShader.frag */,
 			);
 			path = 2DDrawingTemplate;
+			sourceTree = "<group>";
+		};
+		4765E9471DCACF9300C0AFB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4765E9501DCAD09800C0AFB6 /* libCGAL_Core.12.0.0.dylib */,
+				4765E9511DCAD09800C0AFB6 /* libCGAL.12.0.0.dylib */,
+				4765E9521DCAD09800C0AFB6 /* libmpfr.4.dylib */,
+				4765E9531DCAD09800C0AFB6 /* libgmp.10.dylib */,
+				4765E94E1DCAD05D00C0AFB6 /* libboost_thread-mt.dylib */,
+				4765E94A1DCAD01D00C0AFB6 /* libGLEW.2.0.0.dylib */,
+				4765E94B1DCAD01D00C0AFB6 /* libglfw3.3.2.dylib */,
+				4765E9481DCACF9300C0AFB6 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,14 +264,36 @@
 		4765E9451DCACF3600C0AFB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/Cellar/glfw3/3.2.1/lib,
+					/usr/local/Cellar/boost/1.62.0/lib,
+					/usr/local/Cellar/cgal/4.9/lib,
+					/usr/local/Cellar/mpfr/3.1.5/lib,
+					/usr/local/Cellar/gmp/6.1.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
 			};
 			name = Debug;
 		};
 		4765E9461DCACF3600C0AFB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/Cellar/glfw3/3.2.1/lib,
+					/usr/local/Cellar/boost/1.62.0/lib,
+					/usr/local/Cellar/cgal/4.9/lib,
+					/usr/local/Cellar/mpfr/3.1.5/lib,
+					/usr/local/Cellar/gmp/6.1.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
 			};
 			name = Release;
 		};
@@ -246,6 +316,7 @@
 				4765E9461DCACF3600C0AFB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
