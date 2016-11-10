@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CGAL::Filter_iterator&lt;CGAL::internal::CC_iterator&lt;CGAL::Compact_container&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;, CGAL::Default, CGAL::Default, CGAL::Default&gt;, false&gt;, CGAL::Triangulation_2&lt;CGAL::Epick, CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt; &gt;::Infinite_tester&gt;::operator-&gt;() const:iterator.h">
+      </ContextState>
+      <ContextState
+         contextName = "conformingGabrielDT(std::__1::vector&lt;CGAL::Point_2&lt;CGAL::Epick&gt;, std::__1::allocator&lt;CGAL::Point_2&lt;CGAL::Epick&gt; &gt; &gt;):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "current">
+            </PersistentString>
+            <PersistentString
+               value = "vit-&gt;point()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CGAL::Triangulation_2&lt;CGAL::Epick, CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt; &gt;::delete_face(CGAL::internal::CC_iterator&lt;CGAL::Compact_container&lt;CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;, CGAL::Default, CGAL::Default, CGAL::Default&gt;, false&gt;):Triangulation_2.h">
+      </ContextState>
+      <ContextState
+         contextName = "CGAL::Vector_2&lt;CGAL::Epick&gt;::Vector_2&lt;double, double&gt;(double const&amp;, double const&amp;):Vector_2.h">
+      </ContextState>
+      <ContextState
+         contextName = "CGAL::Triangulation_ds_face_base_2&lt;CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt; &gt;::index(CGAL::internal::CC_iterator&lt;CGAL::Compact_container&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;, CGAL::Default, CGAL::Default, CGAL::Default&gt;, false&gt;) const:Triangulation_ds_face_base_2.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "V">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CGAL::PointC2&lt;CGAL::Epick&gt;::PointC2(double const&amp;, double const&amp;):Point_2.h">
+      </ContextState>
+      <ContextState
+         contextName = "CGAL::Constrained_Delaunay_triangulation_2&lt;CGAL::Epick, CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt;, CGAL::Default&gt;::insert(CGAL::Point_2&lt;CGAL::Epick&gt; const&amp;, CGAL::internal::CC_iterator&lt;CGAL::Compact_container&lt;CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;, CGAL::Default, CGAL::Default, CGAL::Default&gt;, false&gt;):Constrained_Delaunay_triangulation_2.h">
+      </ContextState>
+      <ContextState
+         contextName = "CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt;::delete_vertex(CGAL::internal::CC_iterator&lt;CGAL::Compact_container&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;CGAL::Triangulation_data_structure_2&lt;CGAL::Triangulation_vertex_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_vertex_base_2&lt;void&gt; &gt;, CGAL::Delaunay_mesh_face_base_2&lt;CGAL::Epick, CGAL::Constrained_Delaunay_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Constrained_triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_face_base_2&lt;CGAL::Epick, CGAL::Triangulation_ds_face_base_2&lt;void&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;, CGAL::Default, CGAL::Default, CGAL::Default&gt;, false&gt;):Triangulation_data_structure_2.h">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
